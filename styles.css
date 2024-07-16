@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.intro-gif {
+    display: block;
+    margin: 20px auto; /* Ajusta a margem para colocar a imagem abaixo do menu */
+    width: 100%;
+    max-width: 600px; /* Define o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+img{
+    width: 5%;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    transition: color 0.3s;
+}
+
+nav ul.menu li a:hover {
+    color: #ff6347; /* Tomate */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #faea07;
+}

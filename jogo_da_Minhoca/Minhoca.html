@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Tabuleiro - Ludo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Jogo de Tabuleiro - Ludo</h1>
+    <div id="game-board">
+        <!-- Casas do tabuleiro -->
+        <div class="cell red-start">R</div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell yellow-start">Y</div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell green-start">G</div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell blue-start">B</div>
+    </div>
+    <div id="pieces">
+        <div class="piece red" id="red-piece"></div>
+        <div class="piece yellow" id="yellow-piece"></div>
+        <div class="piece green" id="green-piece"></div>
+        <div class="piece blue" id="blue-piece"></div>
+    </div>
+    <div>
+        <button id="roll-dice">Rolar o Dado</button>
+        <div id="dice-result">Resultado do Dado: -</div>
+        <div id="player-position">Posição do Jogador: Start</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
